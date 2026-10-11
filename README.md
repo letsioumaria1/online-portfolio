@@ -8,4 +8,5 @@ My personal portfolio website, built with React and Vite and hosted on Netlify.
 - React
 - Vite
 - lucide-react
+- Tailwind CSS
 - Netlify
