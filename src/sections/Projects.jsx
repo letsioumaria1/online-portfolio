@@ -1,23 +1,6 @@
-import { ArrowUpRight, Github } from "lucide-react";
-import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+import { ArrowUpRight } from "lucide-react";
 
 const projects = [
-  {
-    title: "nutcupskids.com",
-    description:
-      "Designed and developed a fully functional e-commerce website for children’s clothing. Customized the online store structure, product categories, and user journey to enhance usability and conversions. Implemented responsive design and optimized performance across desktop and mobile devices.",
-    image: "/projects/nutcups.jpg",
-    tags: ["E-shop", "Javascript", "HTML", "CSS"],
-    link: "https://nutcupskids.com",
-  },
-  {
-    title: "nextron.gr",
-    description:
-      "Designed and developed a fully custom one‑page website with a clean layout, clear information hierarchy, and smooth user flow. Implemented responsive design to ensure optimal performance across all devices.",
-    image: "/projects/nextron.jpg",
-    tags: ["HTML", "CSS", "Responsive Design", "Custom Website"],
-    link: "https://nextron.gr",
-  },
   {
     title: "jangmi.gr",
     description:
@@ -54,7 +37,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <section id="projects" className="py-32 relative overflow-hidden">
+    <section id="projects" className="py-10 relative overflow-hidden">
       {/* Bg glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
@@ -67,15 +50,15 @@ export const Projects = () => {
           </span>
 
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Projects that
+            Selected
             <span className="font-serif italic font-normal text-white">
               {" "}
-              I have worked on.
+              projects
             </span>
           </h2>
 
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            A small selection of projects I’ve worked on, from websites and e-shops to custom solutions.
+            A small selection of projects I’ve worked on.
           </p>
         </div>
 

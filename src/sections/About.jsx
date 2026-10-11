@@ -2,33 +2,33 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 
 const highlights = [
   {
-    icon: Code2,
-    title: "User Experience",
-    description:
-      "I create websites that are easy to navigate and enjoyable to use.",
-  },
-  {
     icon: Rocket,
     title: "Frontend Development",
     description:
-      "I build responsive and well-structured interfaces.",
+      "Responsive, accessible interfaces in HTML, CSS, JavaScript and React.",
+  },
+  {
+    icon: Code2,
+    title: "User Experience",
+    description:
+      " Clean, easy-to-navigate websites that are enjoyable to use.",
   },
   {
     icon: Users,
     title: "E-commerce",
-    description: "I design and develop online stores that support real business needs.",
+    description: "WooCommerce stores built around real business needs.",
   },
   {
     icon: Lightbulb,
     title: "SEO & Tracking",
     description:
-      "I use tools to improve website visibility and track user behavior.",
+      "Google analytics, GTM, Google search console, Google consent mode.",
   },
 ];
 
 export const About = () => {
   return (
-    <section id="about" className="py-32 relative overflow-hidden">
+    <section id="about" className="py-10 relative overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column */}
@@ -49,7 +49,7 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I am a Web Designer and Developer with 6 years of hands-on experience in building and maintaining modern, user-focused websites and web applications using CMS platforms such as WordPress. I have experience with frontend technologies including HTML, CSS, JavaScript, React and REST API integrations.
+                I am a Web Designer and Developer with 7 years of hands-on experience in building and maintaining modern, user-focused websites and web applications using CMS platforms such as WordPress. I have experience with frontend technologies including HTML, CSS, JavaScript, React and REST API integrations.
               </p>
               <p>
                 I have a strong understanding of UX/UI principles, responsive design, and performance optimization, along with experience managing projects from initial requirements through to development and final delivery.
