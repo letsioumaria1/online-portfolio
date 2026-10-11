@@ -2,9 +2,7 @@ import { Button } from "@/components/Button";
 import {
   ArrowRight,
   ChevronDown,
-  Github,
   Linkedin,
-  Twitter,
   Download,
   Target,
 } from "lucide-react";
@@ -51,10 +49,8 @@ export const Hero = () => {
               backgroundColor: "#20B2A6",
               left: `${(i * 37) % 100}%`,
               top: `${(i * 61) % 100}%`,
-              animation: `slow-drift ${
-                15 + (i % 20)
-              }s ease-in-out infinite`,
-              animationDelay: `${i % 5}s`,
+              animation: `slow-drift ${15 + ((i * 7) % 20)}s ease-in-out infinite`,
+              animationDelay: `${(i * 3) % 5}s`,
             }}
           />
         ))}
@@ -84,7 +80,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-               Hi, I'm Maria Letsiou, a Web Developer / Designer with 6 years of experience developing websites and e-commerce platforms.
+               Hi, I'm Maria Letsiou, a Web Developer / Designer with 7 years of experience developing websites and e-commerce platforms.
               </p>
             </div>
 
@@ -150,7 +146,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">6+</div>
+                  <div className="text-2xl font-bold text-primary">7</div>
                   <div className="text-xs">
                     Years Exp.
                   </div>
